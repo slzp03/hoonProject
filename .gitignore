@@ -1,0 +1,25 @@
+# ========================
+# Backend (Spring Boot / Maven)
+# ========================
+# Maven 빌드 산출물
+backend/target/
+backend/.mvn/
+# IDE 관련 파일 (Eclipse, IntelliJ 등)
+backend/*.iml
+backend/.idea/
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# ========================
+# Frontend (Vue)
+# ========================
+# Node.js 의존성 폴더
+frontend/node_modules/
+# Vue 빌드 산출물 (dist 폴더)
+frontend/dist/
+# 로컬 환경 설정 파일
+frontend/.env.local
+# 로그 파일
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
